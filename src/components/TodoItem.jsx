@@ -6,6 +6,7 @@ export const TodoItem = ({ todo, onClick }) => {
       </label>
       <input
         onChange={() => onClick(todo.id)}
+        role="button"
         className="form-check-input me-1"
         type="checkbox"
         checked={todo.done}
