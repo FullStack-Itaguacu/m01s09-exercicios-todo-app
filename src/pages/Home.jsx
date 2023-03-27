@@ -5,8 +5,8 @@ import { Formulario } from "../components/Formulario";
 export const Home = () => {
   const [toDos, setToDos] = useState([
     { id: 1, text: "Estudar React", done: false },
-    { id: 2, text: "Estudar React", done: true },
-    { id: 3, text: "Estudar React", done: false },
+    { id: 2, text: "Praticar com um projeto", done: true },
+    { id: 3, text: "Divulgar meu resultado no LinkedIn", done: false },
   ]);
 
   const addToDo = (text) => {
