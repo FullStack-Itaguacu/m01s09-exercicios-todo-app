@@ -32,7 +32,21 @@ export const QuemSou = () => {
         </div>
       </div>
       <div className="row mt-4">
-        <Bio />
+        <Bio>
+          <p className="fw-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            aperiam quidem dolore officiis? Neque, ullam, eius quisquam cum
+            magnam est aperiam perferendis obcaecati suscipit dolor laborum? Eos
+            provident hic velit?
+          </p>
+          <p className="fw-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            dignissimos adipisci tenetur consequuntur vitae iure dolorum
+            provident, aliquid maxime nostrum! Ducimus nihil quisquam in modi,
+            dolore vel mollitia tempora repellendus temporibus beatae
+            perferendis obcaecati.
+          </p>
+        </Bio>
       </div>
     </div>
   );
