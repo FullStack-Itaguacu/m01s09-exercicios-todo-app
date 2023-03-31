@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <header className="header bg-body-secondary">
@@ -5,14 +7,14 @@ export const Header = () => {
         <span className="flex-grow-1">Tarefas.dev</span>
         <ul className="navbar-nav ">
           <li className="nav-item me-auto">
-            <a className="nav-link active" aria-current="page" href="#">
+            <Link className="nav-link active" aria-current="page" to="/home">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/quem-sou">
               Quem sou
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
