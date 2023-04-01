@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-export const Formulario = ({ onSubmit }) => {
+export const Formulario = () => {
   const textElementRef = useRef();
 
   const handleSubmit = (event) => {
